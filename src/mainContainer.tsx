@@ -11,7 +11,7 @@ import WelcomeScreen from './screens/welcome.screen';
 import RecentActivityScreen from './screens/recent-activity.screen';
 import NotificationScreen from './screens/notification.screen';
 import ProfileScreen from './screens/profile.screen';
-import {Image} from 'react-native';
+// import {Image} from 'react-native';
 
 const Tab = createBottomTabNavigator();
 
@@ -75,7 +75,7 @@ const MainContainer = () => {
           // }}
           options={{
             tabBarIcon: ({color, size}) => (
-              <MaterialCommunityIcons name="key" color={color} size={size} />
+              <MaterialCommunityIcons name="home" color={color} size={size} />
             ),
           }}
         />

@@ -771,3 +771,81 @@ export const months = [
   'Nov',
   'Dec',
 ];
+
+export const images = [
+  {id: 1, img: require('../assets/images/images/creditCard1.jpeg')},
+  {id: 2, img: require('../assets/images/images/creditCard1.jpeg')},
+  {id: 3, img: require('../assets/images/images/creditCard1.jpeg')},
+  {id: 4, img: require('../assets/images/images/creditCard1.jpeg')},
+  {id: 5, img: require('../assets/images/images/creditCard1.jpeg')},
+];
+
+export const transaction_Images = [
+  {
+    id: 1,
+    img: require('../assets/images/transaction_Images/plusIcon_Image.png'),
+  },
+  {
+    id: 2,
+    img: require('../assets/images/transaction_Images/person1.jpeg'),
+  },
+  {
+    id: 3,
+    img: require('../assets/images/transaction_Images/person2.jpeg'),
+  },
+  {
+    id: 4,
+    img: require('../assets/images/transaction_Images/person3.jpeg'),
+  },
+  {
+    id: 5,
+    img: require('../assets/images/transaction_Images/person4.jpeg'),
+  },
+  {
+    id: 6,
+    img: require('../assets/images/transaction_Images/person5.jpeg'),
+  },
+];
+
+export const transaction_Data = [
+  {
+    id: 1,
+    date: '29 July 2022',
+    time: '08.39 AM',
+    img: require('../assets/images/transaction_Images/person1.jpeg'),
+    firstName: 'Sai',
+    moneyTransfered: '+$100',
+  },
+  {
+    id: 2,
+    date: '30 July 2022',
+    time: '08.40 AM',
+    img: require('../assets/images/transaction_Images/person2.jpeg'),
+    firstName: 'Bhanu',
+    moneyTransfered: '+$200',
+  },
+  {
+    id: 3,
+    date: '31 July 2022',
+    time: '08.41 AM',
+    img: require('../assets/images/transaction_Images/person3.jpeg'),
+    firstName: 'Sekhar',
+    moneyTransfered: '-$100',
+  },
+  {
+    id: 4,
+    date: '29 July 2022',
+    time: '08.42 AM',
+    img: require('../assets/images/transaction_Images/person4.jpeg'),
+    firstName: 'Sai',
+    moneyTransfered: '+$400',
+  },
+  {
+    id: 5,
+    date: '30 July 2022',
+    time: '08.43 AM',
+    img: require('../assets/images/transaction_Images/person5.jpeg'),
+    firstName: 'Bhanu',
+    moneyTransfered: '-$200',
+  },
+];
